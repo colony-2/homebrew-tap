@@ -3,7 +3,7 @@ cask "shai" do
   name "shai"
   desc "Sandboxing shell for running AI coding agents inside Docker containers"
   homepage "https://github.com/colony-2/shai"
-  version "0.0.1"
+  version "0.0.2"
 
   livecheck do
     skip "Auto-generated on release."
@@ -14,22 +14,22 @@ cask "shai" do
   on_macos do
     on_intel do
       url "https://github.com/colony-2/shai/releases/download/v#{version}/shai_#{version}_Darwin_x86_64.tar.gz"
-      sha256 "97cbc7f7730ffce04cf6d253ff377ca66badabf519dcd670e94e02889d4eec27"
+      sha256 "d50adf55c9dfd57a431306d3d2f123b416f0818a4fa4328683f79c50624f6552"
     end
     on_arm do
       url "https://github.com/colony-2/shai/releases/download/v#{version}/shai_#{version}_Darwin_arm64.tar.gz"
-      sha256 "64641b45a9be59d2e63894ababd0c24708d398f49897a8c57c1352e2e7c2b1e4"
+      sha256 "a0e60312dc3426ba9c2d76acd951960b6753d5b402a74fffdf143f214d14c8e3"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/colony-2/shai/releases/download/v#{version}/shai_#{version}_Linux_x86_64.tar.gz"
-      sha256 "fe71728afad2b7add2f1dc48dc8a6c52cec96228eea58f6f0508a0cb78466e1a"
+      sha256 "96667ce786215d32b12fe081f2e1dd9823482d95eb2ece3e01ef5086dd00a38c"
     end
     on_arm do
       url "https://github.com/colony-2/shai/releases/download/v#{version}/shai_#{version}_Linux_arm64.tar.gz"
-      sha256 "a2888fb5db6fb2ab190237f4ac8a8a1f13928deddbca8907f86f1155397ab541"
+      sha256 "53c088b894613fb19e3da4702cf5200c27d8328f4da73e2413c98a836099f49b"
     end
   end
 
